@@ -164,8 +164,7 @@ img {
 .igNxt:hover { background-image: url('/imgs/slidenxt-active.png');}
 
 /* footer */
-footer, .foot { margin-bottom: 10px; margin-top: auto;}
-#last {order: 2;}
+footer, .foot { margin-top: auto;}
 
 /* scrollbar */
 ::-webkit-scrollbar { width: .75em; }
