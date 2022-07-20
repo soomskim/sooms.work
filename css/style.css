@@ -99,13 +99,12 @@ img {
 .home a:hover { background-color: black; color: white;}
 
 /* gallery */
-.gallery, .gallery2 { 
+.gallery, .gallery2, .gallery3 { 
     grid-gap: 0.5em;
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
-.gallery img, .gallery2 img {
+.gallery img, .gallery2 img, .gallery3 img {
     margin-top: 0;
 }
 
@@ -192,7 +191,7 @@ footer { margin-top: auto;}
         margin-right: 12vw;
         margin-left: 12vw;
     }
-    .subgrid, #grid { grid-template-columns: repeat(3, 1fr); }
+    .subgrid, #grid, .gallery3 { grid-template-columns: repeat(3, 1fr); }
 
     .content { grid-template-columns: repeat(3, 1fr);}
     .content > div { grid-column: 2/4;}
