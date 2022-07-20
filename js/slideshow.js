@@ -1,7 +1,8 @@
 //img gallery - slideshow
-var slideIndex = [1];
-var slideId = ["slide"]
+var slideIndex = [1, 1];
+var slideId = ["slide", "slide1"]
 showSlides(1, 0);
+showSlides(1, 1);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
